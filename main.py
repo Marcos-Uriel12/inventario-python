@@ -1,13 +1,8 @@
-import menu
+import gui
 
 
 def main():
-    try:
-        menu.iniciar()
-    except KeyboardInterrupt:
-        print("\n\nPrograma interrumpido por el usuario.")
-    except Exception as e:
-        print(f"\nError inesperado: {e}")
+    gui.launch()
 
 
 if __name__ == "__main__":

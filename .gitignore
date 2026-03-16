@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.spec
+build/
+dist/
+*.xlsx
+!inventario.xlsx
+backup/
+.pytest_cache/
